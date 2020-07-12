@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <!--Title of website-->
+        <title>Projects</title> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="projects.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    </head>
+
+    <body>
+
+        <header>
+
+            <!--Navigation bar-->
+            <nav> 
+                <ul>
+                    <li class="logo"><a href="index.html"><i class="fas fa-gem"></i></a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="achievements.html">Achievements</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>   
+                </ul>
+            </nav>
+
+            <!--Header-->
+            <h1>Projects</h1>
+            
+
+        </header>
+
+        <section>
+            <p id="text">This are some of the projects that i have been working on...</p>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 6</div>
+                    <a href="https://code.dcoder.tech/files/code/5ead0534125113385d24494b/guess-the-word" target="_blank"><img src="pictures/project1.png" style="width:100%;height:40%;"></a>
+                    <div class="textt"><h3>Project 1</h3>Guess the word game. Lets user guess the secret word</div>
+            </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 6</div>
+            <a href="https://code.dcoder.tech/files/code/5eaa968effd98c0e04d159e4/caluclator" target="_blank"><img src="pictures/project2.png" style="width:100%;height:40%;"></a>
+            <div class="textt"><h3>Project 2</h3>Basic caluclator. Works just like a normal calculator</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 6</div>
+            <a href="https://code.dcoder.tech/files/code/5eaa819fffd98c0e04d14c97/mad-libs-game" target="_blank"><img src="pictures/project3.png" style="width:100%;height:40%;"></a>
+            <div class="textt"><h3>Project 3</h3>Mad libs game. Combines all the inputs into a funny passage</div>
+        </div>
+        
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 6</div>
+            <a href="https://code.dcoder.tech/files/code/5ebd5aaaf8d409532f442351/dice-rolling" target="_blank"><img src="pictures/project4.png" style="width:100%;height:40%;"></a>
+            <div class="textt"><h3>Project 4</h3>Dice rolling game. Generates a random number for the user</div>
+        </div>
+        
+        <div class="mySlides fade">
+            <div class="numbertext">5 / 6</div>
+            <a href="https://code.dcoder.tech/files/code/5ee2f634cc25897cd9f351f4/gamebot" target="_blank"><img src="pictures/project5.png" style="width:100%;height:40%;"></a>
+            <div class="textt"><h3>Project 5</h3>Gamebot. Lets user choose the different games to play</div>
+        </div>
+        
+        <div class="mySlides fade">
+            <div class="numbertext">5 / 6</div>
+            <a href="https://code.dcoder.tech/files/code/5eeb6d14ed3283511411d2f2/rock-paper-scissors" target="_blank"><img src="pictures/project6.png" style="width:100%;height:40%;"></a>
+            <div class="textt"><h3>Project 6</h3>Rock paper scissors. Your usual rock paper scissors game</div>
+        </div>
+    </div>
+    <br>
+  
+    
+
+    <script>
+        var slideIndex = 0;
+        showSlides();
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}
+            slides[slideIndex-1].style.display = "block";
+            setTimeout(showSlides, 3000); 
+            }
+    </script>
+
+        </section>
+
+            <!--Footer-->
+        <footer>
+
+            <p>I'd love to hear<br>from you<br></p>
+            <p>                
+                <a href="https://www.instagram.com/jadenlohh/" target="_blank"><i class="fab fa-instagram" style="font-size: 26px;color: black"></i></a>
+                <a href="https://discord.gg/aDeDSTt"><i class="fab fa-discord" style="font-size: 24px;color: black"></i></a>
+                <a href="https://tinyurl.com/yasxpjom" target="_blank>"><i class="fab fa-telegram-plane" style="font-size: 27px;color: black"></i></a>      
+                <a href="https://tinyurl.com/y79edhqa" target="_blank"><i class="fas fa-envelope" style="font-size: 26px;color: black"></i></a>
+            </p>
+
+            <!--links-->
+            <p class="links">
+                <a href="index.html" style="color:black">Home |</a>
+                <a href="contact.html" style="color:black">Contact |</a>
+                <a href="https://forms.gle/Ym7fS17s7TdoQnTu9" target="_blank" style="color:black">Feedback</a> 
+            </p>
+            
+            <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+            <!--Javascript-->
+            <script>
+
+                mybutton = document.getElementById("myBtn");
+                window.onscroll = function() {scrollFunction()};
+                function scrollFunction() {
+                    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                        mybutton.style.display = "block";
+                    } else {
+                        mybutton.style.display = "none";
+                        }
+                    }
+                function topFunction() {
+                    document.body.scrollTop = 0; // For Safari
+                    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+                }
+                            
+            </script>
+
+        </footer>
+
+    </body>
+
+</html>

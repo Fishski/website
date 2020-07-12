@@ -1,0 +1,104 @@
+
+  /*Body*/
+body{
+  background-color: lightgray;
+  margin: 0;
+  padding: 0;
+}
+
+  /*Header*/
+header{
+  background-image: url('pictures/Navigation\ pic.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+  text-align: center;
+  padding-bottom: 25%;
+}
+header h1{
+  color: #333333;
+  font-size: 100px;
+  text-align: left;
+  font-family: Roboto;
+  margin-top: 9%;
+  margin-left: 11%;
+}
+header h3{
+  color: #333333;
+  font-size: 22px;
+  font-family: Arial;
+  text-align: left;
+  margin-top: -4.5%;
+  margin-left: 11%;
+}
+
+
+  /*Navigation*/
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+nav ul li{
+  cursor: pointer;
+  float: left;
+  font-size: 18px;
+  padding: 1.2em;
+  text-align: center;
+  margin-top: 1%;
+}
+.logo{
+  color: black;
+  font-size: 26px;
+  margin-top: -2px;
+}
+nav ul li a{
+  color: black;
+  text-decoration: none;
+}
+
+/*Google form*/
+iframe{
+  width: 100%;
+  border: none;
+  height: 950px;
+  padding-top: 5%;
+  overflow-y: hidden;
+}
+
+
+  /*Footer*/
+footer{
+  background-color: white;
+  color: sliver;
+  font-family: Helvetica;
+  font-size: 17px;
+  padding: 0.5em 0 0.5em 3em;
+}
+.links{
+  font-size: 12px;
+  text-align: center;
+}
+
+
+  /*Back to top button*/
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 25px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
