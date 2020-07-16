@@ -71,7 +71,12 @@ nav ul li a{
   color: blue;
   font-size: 24px;
   font-family: Roboto;
-  margin-left: 7%;
+}
+  
+#text3{
+  color: blue;
+  font-size: 20px;
+  font-family: Roboto;
 }  
   
 /* Slideshow container */
