@@ -71,12 +71,14 @@ nav ul li a{
   color: blue;
   font-size: 24px;
   font-family: Roboto;
+  text-align: center;
 }
   
 #text3{
   color: blue;
   font-size: 20px;
   font-family: Roboto;
+  text-align: center;
 }  
   
 /* Slideshow container */
