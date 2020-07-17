@@ -159,6 +159,13 @@
     padding: 0.5em 0 0.5em 3em;
     margin-top: 2%;
   }
+  #copyright{
+    background-color: white;
+    color: sliver;
+    font-family: Helvetica;
+    font-size: 12px;
+    text-align: center;
+  }
   .links{
     font-size: 12px;
     text-align: center;
