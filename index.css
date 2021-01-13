@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,600;1,300;1,400&display=swap');
 
-  /*Body*/
-body{
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/*Body*/
+body {
     background-color: lightgray;
     box-sizing: border-box;
     scroll-behavior: smooth;
@@ -11,7 +17,7 @@ body{
 
 
   /*Header*/
-header{
+header {
     background-image: url('pictures/mountain.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -20,7 +26,7 @@ header{
     text-align: center;
     padding-bottom: 25%;
 }
-header h1{
+header h1 {
     color: white;
     font-size: 100px;
     text-align: left;
@@ -28,7 +34,7 @@ header h1{
     margin-top: 9%;
     margin-left: 11%;
 }
-header h3{
+header h3 {
     color: white;
     font-size: 24px;
     font-family: Arial;
@@ -38,14 +44,14 @@ header h3{
 }
 
 
-  /*Navigation*/
-nav ul{
+/*Navigation*/
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
-nav ul li{
+nav ul li {
     cursor: pointer;
     float: left;
     font-size: 18px;
@@ -53,31 +59,31 @@ nav ul li{
     text-align: center;
     margin-top: 1%;
 }
-.logo{
+.logo {
     color: white;
     font-size: 26px;
     margin-top: -2px;
 }
-nav ul li a{
+nav ul li a {
     color: white;
     text-decoration: none;
 }
 
 
-  /*Section*/
-section{
+/*Section*/
+section {
     color: blue;
     text-align: center; 
     padding: 5%; 
 }
 
-section h1{
+section h1 {
     font-family: Verdana;
     font-size: 26px;
     margin-left: 4%;
     margin-top: 2%;
 }
-section p{
+section p {
     color: black;
     font-family: Georgia;
     font-size: 18px;
@@ -87,42 +93,41 @@ section p{
 }
 
 
-  /*Hobbies*/
-.section2{
+/*Hobbies*/
+.section2 {
     background-color: white;
     display: block;
     border-radius: 12px;
     padding: 3em 4em 3em 4em;
 }
-.section2 h1{
+.section2 h1 {
     font-family: Verdana;
     font-size: 27px;
     margin-left: 4%;
     margin-top: 2%;
 }
-.section2 p{
+.section2 p {
     font-size: 18px;
 }
 
-.section3{
+.section3 {
     background-color: white;
     display: block;
     border-radius: 12px;
     padding: 3em 4em 3em 4em;
 }
-.section3 h1{
+.section3 h1 {
     font-family: Verdana;
     font-size: 27px;
     margin-left: 4%;
     margin-top: 2%;
 }
-.section3 p{
+.section3 p {
     font-size: 10px;
 }
 
-
- /*Pictures*/
- .row {
+/*Pictures*/
+.row {
     display: flex;
 }
 .column {
@@ -132,28 +137,28 @@ section p{
 }
 
 
-  /*Footer*/
-footer{
+/*Footer*/
+footer {
     background-color: white;
     color: sliver;
     font-family: Helvetica;
     font-size: 17px;
     padding: 0.5em 0 0.5em 3em;
 }
-#copyright{
+#copyright {
     background-color: white;
     color: sliver;
     font-family: Helvetica;
     font-size: 12px;
     text-align: center;
 }
-.links{
+.links {
     font-size: 12px;
     text-align: center;
   }  
 
 
-  /*Back to top button*/
+/*Back to top button*/
 #myBtn {
     display: none; 
     position: fixed; 
