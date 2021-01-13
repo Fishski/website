@@ -5,7 +5,7 @@
     <title>Portfolio</title> 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   </head>
 
@@ -26,98 +26,95 @@
       <h1>Jaden Loh</h1>  
     </header>
 
-      <!--About section-->
-      <section>
-        <h1>About</h1>
-         <p>
-           I love to explore different places in Singapore during my free time and discover places that i did not know existed<br>
-           in Singapore. I love to code during my free time and managed to learn Python, HTML and CSS programming language on<br> 
-           my own. Using my knowledge, i managed to create my own programs like discord bots and rock paper scissors.<br> 
-           I wish to pursue a career as an software specialist when i grow up.<br>
-         </p>
-      </section>
+    <!--About section-->
+    <section>
+      <h1>About</h1>
+      <p>
+        I love to explore different places in Singapore during my free time and discover places that i did not know existed<br>
+        in Singapore. I love to code during my free time and managed to learn Python, HTML and CSS programming language on<br> 
+        my own. Using my knowledge, i managed to create my own programs like discord bots and rock paper scissors.<br> 
+        I wish to pursue a career as an software specialist when i grow up.<br>
+      </p>
+    </section>
     
-      <!--Hobbies section-->
-      <section>
-        <h1>Hobbies</h1>
-        <p>
-          Cycling<br>
-          Photography<br>
-          Swimming<br>
-          Coding<br>
-        </p>
-      </section>
 
-            <!--Pictures taken by me-->
-        <section>
+    <!--Hobbies section-->
+    <section>
+      <h1>Hobbies</h1>
+      <p>
+        Cycling<br>
+        Photography<br>
+        Swimming<br>
+        Coding<br>
+      </p>
+    </section>
 
-            <img src="pictures/narrow vision.jpg" alt="Train tracks merging together" style="width: 75%;height: 40%;">
 
-                <div class="row">
+    <!--Pictures taken by me-->
+    <section>
+      <img src="pictures/narrow vision.jpg" alt="Train tracks merging together" style="width: 75%;height: 40%;">
 
-                    <div class="column">
+      <div class="row">
+        <div class="column">
+          <img src="pictures/fountain of wealth .jpg" alt="fountain of wealth" style="width:100%">
+        </div>
 
-                      <img src="pictures/fountain of wealth .jpg" alt="fountain of wealth" style="width:100%">
-                    </div>
-                    <div class="column">
+        <div class="column">
+          <img src="pictures/trees.jpg" alt="Trees along pathway" style="width:100%">
+        </div>
 
-                      <img src="pictures/trees.jpg" alt="Trees along pathway" style="width:100%">
+        <div class="column">
+          <img src="pictures/Genting.jpg" alt="picture taken in Genting" style="width:100%">
+        </div>
 
-                    </div>
-                    <div class="column">
+      </div>
+    </section>
 
-                      <img src="pictures/Genting.jpg" alt="picture taken in Genting" style="width:100%">
 
-                    </div>
+    <!--Footer-->
+    <footer>
+      <p>I'd love to hear<br>from you<br></p>
+      <p>
+        <a href="https://www.instagram.com/jadenlohh/" target="_blank"><i class="fab fa-instagram" style="font-size: 26px;color: black"></i></a>
+        <a href="https://discord.gg/wDWJQsW"><i class="fab fa-discord" style="font-size: 24px;color: black"></i></a>
+        <a href="https://t.me/joinchat/SY3KzOw71o9z_StO" target="_blank>"><i class="fab fa-telegram-plane" style="font-size: 27px;color: black"></i></a>      
+        <a href="mailto: jadenloh24@gmail.com" target="_blank"><i class="fas fa-envelope" style="font-size: 26px;color: black"></i></a>
+      </p>
 
-                </div>
+      <!--links-->
+      <p class="links">
+        <a href="index.html" style="color:black">Home |</a>
+        <a href="contact.html" style="color:black">Contact |</a>
+        <a href="https://forms.gle/Ym7fS17s7TdoQnTu9" target="_blank" style="color:black">Feedback</a> 
+      </p>
 
-        </section>
+      <p id= 'copyright'>
+        ©2020 by Jaden Loh
+      </p>
 
-            <!--Footer-->
-        <footer>
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
-            <p>I'd love to hear<br>from you<br></p>
-            <p>                
-                <a href="https://www.instagram.com/jadenlohh/" target="_blank"><i class="fab fa-instagram" style="font-size: 26px;color: black"></i></a>
-                <a href="https://discord.gg/6Upz4mM"><i class="fab fa-discord" style="font-size: 24px;color: black"></i></a>
-                <a href="https://tinyurl.com/yasxpjom" target="_blank>"><i class="fab fa-telegram-plane" style="font-size: 27px;color: black"></i></a>      
-                <a href="mailto: jadenloh24@gmail.com" target="_blank"><i class="fas fa-envelope" style="font-size: 26px;color: black"></i></a>
-            </p>
+      <!--Javascript-->
+      <script>
+        mybutton = document.getElementById("myBtn");
+        window.onscroll = function() {scrollFunction()};
 
-            <!--links-->
-            <p class="links">
-                <a href="index.html" style="color:black">Home |</a>
-                <a href="contact.html" style="color:black">Contact |</a>
-                <a href="https://forms.gle/Ym7fS17s7TdoQnTu9" target="_blank" style="color:black">Feedback</a> 
-            </p>
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          }
+          else {
+            mybutton.style.display = "none";
+          }
+        };
 
-            <p id= 'copyright'>
-                ©2020 by Jaden Loh
-            </p>
-
-            <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-
-            <!--Javascript-->
-            <script>
-
-            mybutton = document.getElementById("myBtn");
-            window.onscroll = function() {scrollFunction()};
-            function scrollFunction() {
-                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                    mybutton.style.display = "block";
-                } else {
-                    mybutton.style.display = "none";
-                    }
-                }
-            function topFunction() {
-                document.body.scrollTop = 0; // For Safari
-                document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-            }
+        function topFunction() {
+          document.body.scrollTop = 0; // For Safari
+          document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        };
                         
-            </script>
-        </footer>
+      </script>
+    </footer>
 
-    </body>
-
+  </body>
 </html>
