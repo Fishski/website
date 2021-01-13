@@ -142,47 +142,47 @@
     </div>
     
     
-   <!--Footer-->
-   <footer>
-     <p>I'd love to hear<br>from you<br></p>
-     <p>
-       <a href="https://www.instagram.com/jadenlohh/" target="_blank"><i class="fab fa-instagram" style="font-size: 26px;color: black"></i></a>
-       <a href="https://discord.gg/wDWJQsW"><i class="fab fa-discord" style="font-size: 24px;color: black"></i></a>
-       <a href="https://t.me/joinchat/SY3KzOw71o9z_StO" target="_blank>"><i class="fab fa-telegram-plane" style="font-size: 27px;color: black"></i></a>      
-       <a href="mailto: jadenloh24@gmail.com" target="_blank"><i class="fas fa-envelope" style="font-size: 26px;color: black"></i></a>
-     </p>
+    <!--Footer-->
+    <footer>
+      <p>I'd love to hear<br>from you<br></p>
+      <p>
+        <a href="https://www.instagram.com/jadenlohh/" target="_blank"><i class="fab fa-instagram" style="font-size: 26px;color: black"></i></a>
+        <a href="https://discord.gg/wDWJQsW"><i class="fab fa-discord" style="font-size: 24px;color: black"></i></a>
+        <a href="https://t.me/joinchat/SY3KzOw71o9z_StO" target="_blank>"><i class="fab fa-telegram-plane" style="font-size: 27px;color: black"></i></a>      
+        <a href="mailto: jadenloh24@gmail.com" target="_blank"><i class="fas fa-envelope" style="font-size: 26px;color: black"></i></a>
+      </p>
+ 
+      <!--links-->
+      <p class="links">
+        <a href="index.html" style="color:black">Home |</a>
+        <a href="contact.html" style="color:black">Contact |</a>
+      </p>
 
-     <!--links-->
-     <p class="links">
-       <a href="index.html" style="color:black">Home |</a>
-       <a href="contact.html" style="color:black">Contact |</a>
-     </p>
+      <p id= 'copyright'>
+        ©2020 by Jaden Loh
+      </p>
 
-     <p id= 'copyright'>
-       ©2020 by Jaden Loh
-     </p>
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
-     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+      <!--Javascript-->
+      <script>
+        mybutton = document.getElementById("myBtn");
+        window.onscroll = function() {scrollFunction()};
 
-     <!--Javascript-->
-     <script>
-       mybutton = document.getElementById("myBtn");
-       window.onscroll = function() {scrollFunction()};
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          }
+          else {
+            mybutton.style.display = "none";
+          }
+        };
 
-       function scrollFunction() {
-         if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-           mybutton.style.display = "block";
-         }
-         else {
-           mybutton.style.display = "none";
-         }
-       };
-
-       function topFunction() {
-         document.body.scrollTop = 0; // For Safari
-         document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-       };                  
-     </script>
-   </footer>
+        function topFunction() {
+          document.body.scrollTop = 0; // For Safari
+          document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        };                  
+      </script>
+    </footer>
   </body>
 </html>
